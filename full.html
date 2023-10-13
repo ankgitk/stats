@@ -36,6 +36,20 @@
             margin-top: 5px;
             font-size: 14px;
         }
+
+        @media screen and (max-width: 768px) {
+            /* On screens with a maximum width of 768px (typically mobile devices) */
+            .icon-container {
+                width: 30%; /* Display 3 icons per row */
+            }
+        }
+
+        @media screen and (min-width: 769px) {
+            /* On screens with a minimum width of 769px (typically larger screens) */
+            .icon-container {
+                width: 20%; /* Display 5 icons per row */
+            }
+        }
     </style>
 </head>
 <body>
